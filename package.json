@@ -1,0 +1,25 @@
+{
+  "name": "biswarup-npm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/biswarupdas445/biswarup-npm.git"
+  },
+  "keywords": [
+    "test",
+    "helloworld",
+    "datatime",
+    "management."
+  ],
+  "author": "Biswarup Das",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/biswarupdas445/biswarup-npm/issues"
+  },
+  "homepage": "https://github.com/biswarupdas445/biswarup-npm#readme",
+  "description": ""
+}
