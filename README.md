@@ -22,7 +22,11 @@ A lightweight and handy Node.js utility library for common tasks such as string 
 Install
 -------
 ```shell
-yarn add readme-md # Or alternatively: `npm install readme-md`
+npm install biswarup-npm
+```
+
+```shell
+yarn add biswarup-npm
 ```
 
 
