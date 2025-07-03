@@ -5,7 +5,7 @@ biswarup-npm
 [![GitHub License][LICENSE BADGE]][LICENSE PAGE]
 [![CI Status][CI BADGE]][CI PAGE]
 
-A `README.md` generator library.
+A lightweight and handy Node.js utility library for common tasks such as string formatting, date manipulation, object checking, sleep function, and more.
 
 Install
 -------
