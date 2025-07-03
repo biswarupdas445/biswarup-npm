@@ -25,9 +25,6 @@ A lightweight and handy Node.js utility library for common tasks such as string 
 npm install biswarup-npm
 
 
-```bash
-yarn add biswarup-npm
-
 Usage
 -----
 **NOTE**: This library exports both [CJS](https://nodejs.org/api/modules.html) and [ESM](https://nodejs.org/api/esm.html) modules.
