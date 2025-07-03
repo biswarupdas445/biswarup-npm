@@ -24,6 +24,7 @@ Install
 ```shell
 npm install biswarup-npm
 ```
+or with yarn:
 
 ```shell
 yarn add biswarup-npm
