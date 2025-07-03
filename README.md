@@ -1,4 +1,4 @@
-readme-md
+biswarup-npm
 =========
 [![npm Version][NPM VERSION BADGE]][NPM PAGE]
 [![Node.js][NODE VERSION BADGE]][NODE PAGE]
