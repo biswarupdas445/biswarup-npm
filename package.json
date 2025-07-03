@@ -1,6 +1,6 @@
 {
   "name": "biswarup-npm",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "main": "index.js",
   "scripts": {
     "test": "npm run test"
@@ -13,7 +13,10 @@
     "test",
     "helloworld",
     "datatime",
-    "management."
+    "management.",
+    "sleep",
+    "timeout",
+    "hold workflow"
   ],
   "author": "Biswarup Das",
   "license": "ISC",

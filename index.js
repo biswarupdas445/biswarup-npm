@@ -6,6 +6,4 @@ function helloNpm() {
 const sleep = async (milliseconds) => {
     await new Promise(resolve => setTimeout(resolve, milliseconds));
 }
-module.exports = [ helloNpm, 
-                  sleep
-                ]
+module.exports = { helloNpm, sleep};
