@@ -26,9 +26,7 @@ npm install biswarup-npm
 
 or with yarn:
 
-bash
-Copy
-Edit
+```bash
 yarn add biswarup-npm
 
 Usage
