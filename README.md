@@ -7,6 +7,18 @@ biswarup-npm
 
 A lightweight and handy Node.js utility library for common tasks such as string formatting, date manipulation, object checking, sleep function, and more.
 
+---
+
+## ✨ Features
+
+- 🔧 Type and value checks (e.g., `isEmpty`, `isObject`)
+- 📆 Date formatting and parsing
+- 🧹 String manipulation
+- 🔁 Array and object utilities
+- 🪶 Lightweight with no external dependencies
+
+---
+
 Install
 -------
 ```shell
