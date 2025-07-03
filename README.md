@@ -10,7 +10,7 @@ A `README.md` generator library.
 Install
 -------
 ```shell
-yarn add readme-md # Or alternatively: `npm install readme-md`
+npm i biswarup-npm
 ```
 
 Usage
