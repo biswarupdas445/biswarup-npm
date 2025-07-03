@@ -37,7 +37,7 @@ Usage
 
 ### JavaScript (Basic)
 ```javascript
-import readme from 'readme-md';
+import bn from 'biswarup-npm';
 
 const pkg = {
     name: 'my-awesome-package',
@@ -79,7 +79,7 @@ readme({ pkg });
 
 ### JavaScript (Advanced)
 ```javascript
-import readme from 'readme-md';
+import bn from 'biswarup-npm';
 
 const pkg = {
     name: 'my-awesome-package',
@@ -148,7 +148,7 @@ readme({ pkg, additionalSections, badges, licenseLink });
 
 ### TypeScript (Advanced)
 ```typescript
-import readme, { type ReadmeConfig } from 'readme-md';
+import readme, { type ReadmeConfig } from 'biswarup-npm';
 
 const config: ReadmeConfig = {
     pkg: {
