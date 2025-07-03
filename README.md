@@ -19,10 +19,11 @@ A lightweight and handy Node.js utility library for common tasks such as string 
 
 ---
 
-## 📥 Installation
-
-```bash
-npm install biswarup-npm
+Install
+-------
+```shell
+yarn add readme-md # Or alternatively: `npm install readme-md`
+```
 
 
 Usage
