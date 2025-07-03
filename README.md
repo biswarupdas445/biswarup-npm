@@ -24,7 +24,6 @@ A lightweight and handy Node.js utility library for common tasks such as string 
 ```bash
 npm install biswarup-npm
 
-or with yarn:
 
 ```bash
 yarn add biswarup-npm
