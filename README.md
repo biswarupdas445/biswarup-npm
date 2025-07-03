@@ -19,11 +19,17 @@ A lightweight and handy Node.js utility library for common tasks such as string 
 
 ---
 
-Install
--------
-```shell
-npm i biswarup-npm
-```
+## 📥 Installation
+
+```bash
+npm install biswarup-npm
+
+or with yarn:
+
+bash
+Copy
+Edit
+yarn add biswarup-npm
 
 Usage
 -----
