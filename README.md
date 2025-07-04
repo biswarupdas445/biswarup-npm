@@ -49,22 +49,16 @@ main();
 
 ```
 
-### JavaScript (Advanced)
+### randomInt (Utility)
 ```javascript
-import bn from 'biswarup-npm';
+let bn = require('biswarup-npm');
 
-const pkg = {
-    name: 'my-awesome-package',
-    description: 'An awesome package.',
-    type: 'module',
-    license: 'MIT',
-    scripts: {
-        test: 'jest'
-    },
-    engines: {
-        yarn: '1.x'
-    }
-};
+async function main() {
+    console.log("Result: ", bn.randomInt());
+    console.log("Result: ", bn.randomInt(1,10));
+}
+
+main();
 
 const additionalSections = [
     {
