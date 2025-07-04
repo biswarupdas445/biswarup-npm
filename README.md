@@ -55,7 +55,7 @@ let bn = require('biswarup-npm');
 
 async function main() {
     console.log("Result: ", bn.randomInt()); // without range.
-    console.log("Result: ", bn.randomInt(1,10)); with range.
+    console.log("Result: ", bn.randomInt(1,10)); //with range.
 }
 
 main();
@@ -80,8 +80,8 @@ main();
 let bn = require('biswarup-npm');
 
 async function main() {
-    console.log("Result: ", bn.randomFloat()); // without range.
-    console.log("Result: ", bn.randomFloat(1,10)); // with range.
+    console.log("Result: ", bn.validateEmail('biswarup@gmail.com'));
+    console.log("Result: ", bn.validateEmail('biswarup@com'));
 }
 
 main();
