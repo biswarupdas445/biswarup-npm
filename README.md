@@ -319,7 +319,7 @@ yarn test # Or alternatively: `npm test`
 
 See Also
 --------
-- [readme-md-cli @ npm](https://www.npmjs.com/package/readme-md-cli)
+- [utility-cli @ npm](https://www.npmjs.com/package/utility-cli)
 
 License
 -------
