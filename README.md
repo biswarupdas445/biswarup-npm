@@ -93,7 +93,7 @@ main();
 let bn = require('biswarup-npm');
 
 async function main() {
-    console.log("Result: ", bn.capitalize('hello world!')); // Result:  true
+    console.log("Result: ", bn.capitalize("hello, world!")); // Result: "Hello, World!"
 }
 
 main();
