@@ -62,6 +62,19 @@ main();
 
 ```
 
+### randomFloat (Utility)
+```javascript
+let bn = require('biswarup-npm');
+
+async function main() {
+    console.log("Result: ", bn.randomFloat());
+    console.log("Result: ", bn.randomFloat(1,10));
+}
+
+main();
+
+```
+
 ### TypeScript (Advanced)
 ```typescript
 import readme, { type ReadmeConfig } from 'biswarup-npm';
