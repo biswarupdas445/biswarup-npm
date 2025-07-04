@@ -1,6 +1,6 @@
 {
   "name": "biswarup-npm",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "main": "index.js",
   "scripts": {
     "test": "npm run test"
@@ -10,11 +10,15 @@
     "url": "git+https://github.com/biswarupdas445/biswarup-npm.git"
   },
   "keywords": [
-    "test",
     "helloworld",
+    "utility",
+    "sleep",
+    "random",
+    "random with range",
+    "randomInt",
+    "randomFloat",
     "datatime",
     "management.",
-    "sleep",
     "timeout",
     "hold workflow"
   ],

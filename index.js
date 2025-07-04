@@ -2,8 +2,19 @@ function helloNpm() {
   return "hello NPM"
 }
 
-
+// sleep function.
 const sleep = async (milliseconds) => {
     await new Promise(resolve => setTimeout(resolve, milliseconds));
 }
-module.exports = { helloNpm, sleep};
+
+// rendomInt with range.
+function randomInt(min = 0, max = 99999999) {
+  return Math.floor(Math.random() * (max - min + 1) + min);
+}
+
+// rendomFloat with range.
+function randomFloat(min = 0, max = 99999999) {
+  return (Math.random() * (max - min + 1) + min);
+}
+
+module.exports = { helloNpm, sleep, randomInt, randomFloat};
