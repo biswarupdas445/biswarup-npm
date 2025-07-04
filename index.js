@@ -17,4 +17,10 @@ function randomFloat(min = 0, max = 99999999) {
   return (Math.random() * (max - min + 1) + min);
 }
 
-module.exports = { helloNpm, sleep, randomInt, randomFloat};
+// validate email function.
+function validateEmail(email) {
+  const regex = /^\S+@\S+\.\S+$/;
+  return regex.test(email);
+};
+
+module.exports = { helloNpm, sleep, randomInt, randomFloat, validateEmail };
