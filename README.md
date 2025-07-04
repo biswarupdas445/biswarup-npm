@@ -80,8 +80,8 @@ main();
 let bn = require('biswarup-npm');
 
 async function main() {
-    console.log("Result: ", bn.validateEmail('biswarup@gmail.com'));
-    console.log("Result: ", bn.validateEmail('biswarup@com'));
+    console.log("Result: ", bn.validateEmail('biswarup@gmail.com')); // Result:  true
+    console.log("Result: ", bn.validateEmail('biswarup@com')); // Result:  false
 }
 
 main();
