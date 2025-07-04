@@ -60,56 +60,6 @@ async function main() {
 
 main();
 
-const additionalSections = [
-    {
-        position: 'before:Install',
-        title: 'Greetings',
-        body: 'Hello world!'
-    }
-];
-
-const badges = [
-    {
-        alt: 'Build Status',
-        image: 'https://img.shields.io/github/actions/workflow/status/jbenner-radham/node-readme-md/ci.yaml?branch=main&logo=github&style=flat',
-        link: 'https://github.com/jbenner-radham/node-readme-md/actions/workflows/ci.yaml'
-    }
-];
-
-const licenseLink = 'LICENSE';
-
-readme({ pkg, additionalSections, badges, licenseLink });
-// > my-awesome-package
-// > ==================
-// > [![Build Status](https://img.shields.io/github/actions/workflow/status/jbenner-radham/node-readme-md/ci.yaml?branch=main&logo=github&style=flat)](https://github.com/jbenner-radham/node-readme-md/actions/workflows/ci.yaml)
-// >
-// > An awesome package.
-// >
-// > Greetings
-// > ---------
-// > Hello world!
-// >
-// > Install
-// > -------
-// > ```sh
-// > yarn add my-awesome-package # Or alternatively: `npm install my-awesome-package`
-// > ```
-// >
-// > Usage
-// > -----
-// > ```js
-// > import myAwesomePackage from 'my-awesome-package';
-// > ```
-// >
-// > Testing
-// > -------
-// > ```sh
-// > yarn test # Or alternatively: `npm test`
-// > ```
-// >
-// > License
-// > -------
-// > The MIT License. See the [license file](LICENSE) for details.
 ```
 
 ### TypeScript (Advanced)
