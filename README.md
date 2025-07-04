@@ -75,6 +75,19 @@ main();
 
 ```
 
+### validateEmail (Utility)
+```javascript
+let bn = require('biswarup-npm');
+
+async function main() {
+    console.log("Result: ", bn.randomFloat()); // without range.
+    console.log("Result: ", bn.randomFloat(1,10)); // with range.
+}
+
+main();
+
+```
+
 ### TypeScript (Advanced)
 ```typescript
 import readme, { type ReadmeConfig } from 'biswarup-npm';
