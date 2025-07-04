@@ -100,6 +100,23 @@ main();
 
 ```
 
+### camelize (String-Utility)
+```javascript
+let bn = require('biswarup-npm');
+
+async function main() {
+    // all output "equipmentClassName"
+    console.log(camelize("EquipmentClass name")); // equipmentClassName
+    console.log(camelize("Equipment className")); // equipmentClassName
+    console.log(camelize("equipment class name")); // equipmentClassName
+    console.log(camelize("Equipment Class Name")); // equipmentClassName
+}
+
+main();
+
+```
+
+
 ### TypeScript (Advanced)
 ```typescript
 import readme, { type ReadmeConfig } from 'biswarup-npm';
