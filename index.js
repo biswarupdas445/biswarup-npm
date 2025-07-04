@@ -23,4 +23,16 @@ function validateEmail(email) {
   return regex.test(email);
 };
 
-module.exports = { helloNpm, sleep, randomInt, randomFloat, validateEmail };
+// capitalize function first latter "uppercase".
+function capitalize(str) {
+  const arr = str.trim().toLowerCase().split(" ");
+
+  for (let i = 0; i < arr.length; i++) {
+    arr[i] = arr[i].charAt(0).toUpperCase() + arr[i].slice(1);
+  }
+
+  return arr.join(" ");
+};
+
+
+module.exports = { helloNpm, sleep, randomInt, randomFloat, validateEmail, capitalize };
