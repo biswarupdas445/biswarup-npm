@@ -105,11 +105,11 @@ main();
 let bn = require('biswarup-npm');
 
 async function main() {
-    // all output "equipmentClassName"
-    console.log(bn.camelize("EquipmentClass name")); // equipmentClassName
-    console.log(bn.camelize("Equipment className")); // equipmentClassName
-    console.log(bn.camelize("equipment class name")); // equipmentClassName
-    console.log(bn.camelize("Equipment Class Name")); // equipmentClassName
+    // all output "variableClassName"
+    console.log(bn.camelize("VariableClass name")); // variableClassName
+    console.log(bn.camelize("Variable className")); // variableClassName
+    console.log(bn.camelize("variable class name")); // variableClassName
+    console.log(bn.camelize("Variable Class Name")); // variableClassName
 }
 
 main();
