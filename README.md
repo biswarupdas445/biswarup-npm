@@ -35,46 +35,18 @@ Usage
 -----
 **NOTE**: This library exports both [CJS](https://nodejs.org/api/modules.html) and [ESM](https://nodejs.org/api/esm.html) modules.
 
-### JavaScript (Basic)
+### Sleep Function (Basic)
 ```javascript
-import bn from 'biswarup-npm';
+let bn = require('biswarup-npm');
 
-const pkg = {
-    name: 'my-awesome-package',
-    description: 'An awesome package.',
-    type: 'module',
-    license: 'MIT',
-    scripts: {
-        test: 'jest'
-    }
-};
+async function main() {
+    console.log("Result: ", bn.helloNpm());
+    await bn.sleep(10000);
+    console.log("Result: ", bn.helloNpm());
+}
 
-readme({ pkg });
-// > my-awesome-package
-// > ==================
-// > An awesome package.
-// >
-// > Install
-// > -------
-// > ```sh
-// > npm install my-awesome-package
-// > ```
-// >
-// > Usage
-// > -----
-// > ```js
-// > import myAwesomePackage from 'my-awesome-package';
-// > ```
-// >
-// > Testing
-// > -------
-// > ```sh
-// > npm test
-// > ```
-// >
-// > License
-// > -------
-// > The MIT License. See the license file for details.
+main();
+
 ```
 
 ### JavaScript (Advanced)
