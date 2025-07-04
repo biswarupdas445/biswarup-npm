@@ -88,6 +88,18 @@ main();
 
 ```
 
+### capitalize (String-Utility)
+```javascript
+let bn = require('biswarup-npm');
+
+async function main() {
+    console.log("Result: ", bn.capitalize('hello world!')); // Result:  true
+}
+
+main();
+
+```
+
 ### TypeScript (Advanced)
 ```typescript
 import readme, { type ReadmeConfig } from 'biswarup-npm';
