@@ -35,13 +35,13 @@ Usage
 -----
 **NOTE**: This library exports both [CJS](https://nodejs.org/api/modules.html) and [ESM](https://nodejs.org/api/esm.html) modules.
 
-### Sleep Function (Basic)
+### Sleep Function (Utility)
 ```javascript
 let bn = require('biswarup-npm');
 
 async function main() {
     console.log("Result: ", bn.helloNpm());
-    await bn.sleep(10000);
+    await bn.sleep(10000); // time in milliseconds.
     console.log("Result: ", bn.helloNpm());
 }
 
